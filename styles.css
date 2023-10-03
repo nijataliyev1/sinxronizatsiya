@@ -20,10 +20,112 @@ main {
     margin: 0 auto;
 }
 
+.second-part .small {
+    display: flex;
+    width: 66%;
+    justify-content: space-between;
+    margin-bottom: 107px;
+}
+
+.second-part h3 {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.762px;
+    margin-bottom: 40px;
+}
+
+.second-part h4 {
+    color: #1E4681;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+}
+
+.second-part p {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+}
+
+.second-part .small div {
+
+    width: 25%;
+}
+
+.second-part ul {
+    width: 49%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-left: 25px;
+}
+
+.second-part li:nth-child(3) {
+    width: 89%;
+}
+
 @media screen and (min-width: 992px) and (max-width: 1279px) { /*tablet*/
 
+    .second-part h3 {
+        font-size: 32px;
+        line-height: 32.443px;
+
+    }
+
+    .second-part h4 {
+        color: #1E4681;
+        font-size: 15px;
+        line-height: 19.5px;
+    }
+
+    .second-part p {
+        font-size: 11px;
+        line-height: 14.3px;
+    }
+
+    .second-part .small div {
+        width: 25%;
+    }
+
+    .second-part ul {
+        font-size: 14px;
+        line-height: 21px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 991px) { /*smartphone*/
 
+    .second-part .small {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .second-part h3 {
+        font-size: 26px;
+        line-height: 26.36px;
+    }
+
+    .second-part h4 {
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+
+    .second-part p {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .second-part ul {
+        font-size: 12px;
+        line-height: 18px;
+        /* background-color: pink; */
+    }
+
+    .second-part .small div {
+        width: 59%;
+        margin-bottom: 23px;
+    }
 }
