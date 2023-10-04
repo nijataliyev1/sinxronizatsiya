@@ -11,19 +11,394 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-main {
-    width: 100%;
-}
-
 .section {
     width: 90%;
     margin: 0 auto;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1279px) { /*tablet*/
-
+.first-part>div:first-child img {
+    width: 7%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 991px) { /*smartphone*/
+.first-part .items {
+    display: flex;
+}
 
+.first-part .items .item {
+    width: 13%;
+    display: flex;
+}
+
+.first-part .items .item p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.first-part .items .item i {
+    margin-right: 8px;
+}
+
+.first-part .main {
+    margin: 100px 0px 67px 0px;
+}
+
+.first-part .main .bottom {
+    display: flex;
+}
+
+.first-part .main .bottom .left {
+    width: 57%;
+}
+
+.first-part .main .left h1 {
+    font-family: Roboto Slab;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 81.108px;
+}
+
+.first-part .main .left p {
+    width: 60%;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 51px;
+}
+
+.first-part .main img {
+    width: 22%;
+}
+
+.first-part .mavi {
+    width: 58%;
+}
+
+.first-part .mavi div {
+    border-radius: 5px;
+    background: #1E4681;
+    padding: 19px 27px 10px 26px;
+    width: 61%;
+    color: #FFF;
+    margin-left: auto;
+}
+
+.first-part .mavi div p {
+    font-family: Roboto Slab;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.5px;
+}
+
+.first-part .mavi div h4 {
+    text-align: right;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 14px;
+}
+
+
+.first-part {
+    padding-top: 21px;
+}
+
+.first-part .div1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-part .div1 .left {
+    width: 55%;
+}
+
+.first-part .div1 .left h3 {
+    font-size: 55px;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    line-height: 55.762px;
+    margin: 55px 0px 10px 0px;
+}
+
+.first-part .div1 .left p {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px 0px 45px;
+    line-height: 36px;
+    font-family: Roboto;
+}
+
+.first-part .div2 {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    font-family: Roboto;
+}
+
+.first-part .div2 img {
+    width: 20%;
+}
+
+.first-part .div2 div h5 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+}
+
+.first-part .div2 div p {
+    font-size: 18px;
+    width: 150px;
+    font-weight: 400;
+    line-height: 23.4px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .first-part>div:first-child img {
+        width: 4%;
+    }
+
+    .first-part .items .item {
+        margin-right: 15px;
+    }
+
+    .first-part .items .item p {
+        font-size: 12px;
+        line-height: 13.8px;
+    }
+
+    .first-part .items .item i {
+        margin-right: 8px;
+        font-size: 13px;
+    }
+
+    .first-part .main {
+        margin: 58px 0px 40px 0px;
+    }
+
+    .first-part .main .bottom .left h3 {
+        font-size: 46px;
+        line-height: 47px;
+        margin-top: 7px;
+    }
+
+    .first-part .main .bottom .left p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 20px;
+    }
+
+    .first-part .main .bottom img {
+        width: 176px;
+        height: 206px;
+    }
+
+    .first-part .mavi div {
+        width: 65%;
+        height: 125px;
+        padding: 11px 16px 39px 15px;
+    }
+
+    .first-part .mavi div p {
+        font-size: 14px;
+        line-height: 18.2px;
+    }
+
+    .first-part .mavi div h4 {
+        font-size: 12px;
+        line-height: 15.6px;
+        margin-top: 10px;
+    }
+
+    .first-part .div1 {
+        width: 93%;
+    }
+
+    .first-part .div1 img {
+        width: 181.858px;
+        height: 190.438px;
+    }
+
+    .first-part .div1 .left h3 {
+        font-size: 32px;
+        line-height: 32.443px;
+    }
+
+    .first-part .div1 .left p {
+        margin: 0px 0px 20px;
+        font-size: 14px;
+        line-height: 21px;
+
+    }
+
+    .first-part .div2 {
+        width: 75%;
+        margin-top: 54px;
+    }
+
+    .first-part .div2 img {
+        width: 25%;
+    }
+
+    .first-part .div2 div h5 {
+        font-size: 15px;
+        line-height: 19.5px;
+    }
+
+    .first-part .div2 div p {
+        font-size: 11px;
+        line-height: 14.3px;
+        width: 90px;
+    }
+
+    .first-part .main .left h1 {
+        font-size: 46px;
+        line-height: 46.637px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .first-part>div:first-child img {
+        width: 14%;
+    }
+
+    .first-part .items .item {
+        margin-right: 11.6px;
+    }
+
+    .first-part .items .item p {
+        font-size: 10px;
+        line-height: 11.5px;
+    }
+
+    .first-part .items .item i {
+        margin-right: 4.5px;
+        font-size: 10px;
+    }
+
+    .first-part .main {
+        margin: 44.6px 0px 38.6px 0px;
+    }
+
+    .first-part .main .bottom {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .first-part .main .bottom img {
+        width: 40%;
+        margin-left: auto;
+    }
+
+    .first-part .main .bottom .left {
+        width: 100%;
+    }
+
+    .first-part .main .bottom .left h3 {
+        font-size: 37px;
+        line-height: 37.5px;
+        margin-top: 8px;
+    }
+
+    .first-part .main .bottom .left p {
+        width: 62%;
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+
+    .first-part .mavi {
+        width: 82%;
+        width: 250px;
+    }
+
+    .first-part .mavi div {
+        padding: 11px 16px 9px 15px;
+        width: 96%;
+    }
+
+    .first-part .mavi div p {
+        font-size: 11px;
+        line-height: 14.3px;
+    }
+
+    .first-part .mavi div h4 {
+        font-size: 10px;
+        line-height: 13px;
+        margin-top: 7px;
+    }
+
+    .first-part .div1 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .first-part .div1 img {
+        width: 181px;
+        height: 182px;
+    }
+
+    .first-part .div1 .left {
+        width: 90%;
+    }
+
+    .first-part .div1 .left h3 {
+        font-size: 26px;
+        line-height: 26.3px;
+    }
+
+    .first-part .div1 .left p {
+        margin: 0px 0px 20px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .first-part .div2 {
+        flex-wrap: wrap;
+        width: 72%;
+        max-width: 200px;
+    }
+
+    .first-part .div2 img {
+        display: none;
+    }
+
+    .first-part .div2 div {
+        margin-bottom: 34px;
+    }
+
+    .first-part .div2 div h5 {
+        font-size: 15px;
+        line-height: 19.5px;
+    }
+
+    .first-part .div2 div p {
+        font-size: 11px;
+        line-height: 14.3px;
+        width: 90px;
+    }
+
+    .first-part .main .left h1 {
+        font-size: 37px;
+        line-height: 37.5px;
+    }
+
+    .first-part .items .item {
+        width: 26%;
+    }
+
+    .first-part .items {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1278px) {
+    .first-part .mavi div {
+        width: 48%;
+    }
 }
