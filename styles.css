@@ -161,7 +161,7 @@ main {
     line-height: 23.4px;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1279px) {
+@media screen and (min-width: 992px) and (max-width: 1279px) { /*tablet*/
     .first-part>div:first-child img {
         width: 4%;
     }
@@ -264,7 +264,7 @@ main {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 991px) {
+@media screen and (min-width: 320px) and (max-width: 991px) { /*smarthphone*/
     .first-part>div:first-child img {
         width: 14%;
     }
