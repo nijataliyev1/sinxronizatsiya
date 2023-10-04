@@ -364,6 +364,7 @@ main {
         flex-wrap: wrap;
         width: 72%;
         max-width: 200px;
+        margin-left: 16px;
     }
 
     .first-part .div2 img {
