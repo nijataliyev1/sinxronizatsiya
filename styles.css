@@ -19,11 +19,3 @@ main {
     width: 90%;
     margin: 0 auto;
 }
-
-@media screen and (min-width: 992px) and (max-width: 1279px) { /*tablet*/
-
-}
-
-@media screen and (min-width: 320px) and (max-width: 991px) { /*smartphone*/
-
-}
