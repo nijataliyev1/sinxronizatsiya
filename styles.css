@@ -1315,4 +1315,59 @@ h1{
     }
 }
 
+@media screen and (min-width: 319px) and (max-width: 370px) {
 
+    .one-part {
+            width: 240px;
+            height: 198px;
+            margin: 25px;
+            padding: 15px;
+        }
+    
+        .text1 {
+            font-size: 8px;
+            width: 200px;
+            height: 111.01px;
+            margin-bottom: -10px;
+        }
+    
+    .bottext{
+        font-size: 12px;
+        width: 164.49px;
+        height: 32.73px;
+        margin: 5px 0 -10px;
+    }
+    
+    .bottom2{
+        margin-left: 5px;
+    }
+    
+    .face {
+        width: 10.91px;
+        height: 17.2px;
+    }
+    
+    .p1 {
+        width: 66px;
+        height: 70px;
+        margin-right: 0px;
+    }
+    
+    
+    .normal {
+        font-size: 8px;
+        width: 120px;
+        height: 38px;
+    }
+    
+    .big {
+        font-size: 11px;
+        width: 137px;
+        height: 14.91px;
+    }
+    
+    .bot2{
+        margin-left: 5px;
+    }
+    
+    }
