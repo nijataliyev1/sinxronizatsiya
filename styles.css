@@ -343,6 +343,165 @@ main {
     }
 }
 
+/* footer */
+
+.footer{
+    width: 100%;
+}
+
+.one{
+    background-color: #EFEFEF;
+    padding: 20px;
+}
+
+h1{
+    font-size: 55px;
+    font-family: Roboto Slab;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.one-part{
+    background-color: #FFF;
+    border-radius: 30px;
+    margin: 50px 100px 100px 100px;
+    width: 791px;
+    height: 451px;
+    padding: 40px;
+    box-shadow: 1px 1px 8px 3px rgb(195 192 183);
+}
+
+.text1{
+    width:700px;
+    height:203px;
+    font-size: 20px;
+}
+
+.p1{
+    width: 190px;
+    height: 160px;
+    margin-right: 50px;
+}
+
+.text-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottext{
+    font-size: 30px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    width: 353px;
+    height: 59px;
+}
+
+.face{
+    width: 32px;
+    height: 31px;
+}
+
+
+.two{
+    background-color: #9DC9C8;
+    padding: 100px;
+}
+
+.two h2{
+    font-size: 55px;
+    font-family: Roboto Slab;
+    margin-top:100px;
+    margin-bottom: 100px;
+    width: 908px;
+    height: 66px;
+}
+
+.cmot{
+    font-size: 25px;
+    width: 170px;
+    height: 32px;
+}
+
+.rubl{
+    font-size: 80px;
+    width: 481px;
+    height: 181px;
+}
+
+.big{
+    font-size: 25px;
+    width: 294px;
+    height: 32px;
+}
+
+.normal{
+    font-size: 18px;
+    width: 294px;
+    height: 70px;
+}
+
+.two-bottom{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.bot1{
+    margin-right:70px;
+}
+
+
+.three{
+    background-color: black;
+    color:#FFF;
+    
+    padding:50px;
+}
+
+.first-partf{
+    margin-left:50px;
+    width: 198px;
+    height: 131px;
+}
+
+.logos{
+    margin-top: 20px;
+}
+
+.logos img{
+    margin-right: 10px;
+}
+
+.first-second{
+    display:flex;
+    justify-content: space-between;
+    width: 1172px;
+}
+
+.second-partf{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    
+}
+
+.third-partf{
+    margin-left: 50px;
+    width: 230px;
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 100px;
+    font-size: 18px;
+} 
+
+
+
 @media screen and (min-width: 991px) and (max-width: 1179px) {
     .first-part>div:first-child img {
         width: 8%;
@@ -848,5 +1007,4 @@ main {
     }
 }
 
-/* footer */
 
