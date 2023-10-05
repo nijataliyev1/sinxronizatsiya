@@ -49,6 +49,7 @@ main {
 
 .first-part .main .bottom {
     display: flex;
+    justify-content: space-between;
 }
 
 .first-part .main .bottom .left {
@@ -60,6 +61,7 @@ main {
     font-size: 80px;
     font-weight: 700;
     line-height: 81.108px;
+    margin: 29px 0px 18px 0px;
 }
 
 .first-part .main .left p {
@@ -68,7 +70,6 @@ main {
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 51px;
 }
 
 .first-part .main img {
@@ -109,14 +110,15 @@ main {
 }
 
 .first-part .div1 {
-    width: 100%;
+    width: 94%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 80px;
 }
 
 .first-part .div1 .left {
-    width: 55%;
+    width: 52%;
 }
 
 .first-part .div1 .left h3 {
@@ -124,7 +126,7 @@ main {
     font-family: Roboto Slab;
     font-weight: 700;
     line-height: 55.762px;
-    margin: 55px 0px 10px 0px;
+    margin: 55px 0px 30px 0px;
 }
 
 .first-part .div1 .left p {
@@ -161,9 +163,27 @@ main {
     line-height: 23.4px;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1279px) { /*tablet*/
+@media screen and (min-width: 1180px) and (max-width: 1380px) {
+    .first-part .items .item {
+        width: 17%;
+    }
+
+    .first-part .main .bottom .left p {
+        width: 90%;
+    }
+
+    .first-part .mavi {
+        width: 65%;
+    }
+
+    .first-part .mavi div {
+        width: 72%;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1179px) {
     .first-part>div:first-child img {
-        width: 4%;
+        width: 8%;
     }
 
     .first-part .items .item {
@@ -197,12 +217,11 @@ main {
     }
 
     .first-part .main .bottom img {
-        width: 176px;
-        height: 206px;
+        width: 24%;
     }
 
     .first-part .mavi div {
-        width: 65%;
+        width: 55%;
         height: 125px;
         padding: 11px 16px 39px 15px;
     }
@@ -223,8 +242,7 @@ main {
     }
 
     .first-part .div1 img {
-        width: 181.858px;
-        height: 190.438px;
+        width: 32%;
     }
 
     .first-part .div1 .left h3 {
@@ -264,7 +282,11 @@ main {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 991px) { /*smarthphone*/
+/*tablet*/
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+
+    /*smarthphone*/
     .first-part>div:first-child img {
         width: 14%;
     }
@@ -288,17 +310,16 @@ main {
     }
 
     .first-part .main .bottom {
-        flex-direction: column;
         width: 95%;
     }
 
     .first-part .main .bottom img {
-        width: 40%;
+        width: 30%;
         margin-left: auto;
     }
 
     .first-part .main .bottom .left {
-        width: 100%;
+        width: 50%;
     }
 
     .first-part .main .bottom .left h3 {
@@ -308,20 +329,14 @@ main {
     }
 
     .first-part .main .bottom .left p {
-        width: 62%;
+        width: 95%;
         font-size: 10px;
         line-height: 15px;
         margin-top: 20px;
     }
 
     .first-part .mavi {
-        width: 82%;
         width: 250px;
-    }
-
-    .first-part .mavi div {
-        padding: 11px 16px 9px 15px;
-        width: 96%;
     }
 
     .first-part .mavi div p {
@@ -338,6 +353,11 @@ main {
     .first-part .div1 {
         width: 100%;
         flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .first-part .div1 img {
+        align-self: center;
     }
 
     .first-part .div1 img {
@@ -364,7 +384,6 @@ main {
         flex-wrap: wrap;
         width: 72%;
         max-width: 200px;
-        margin-left: 16px;
     }
 
     .first-part .div2 img {
@@ -391,17 +410,85 @@ main {
         line-height: 37.5px;
     }
 
+    .first-part .items {
+        max-width: 300px;
+    }
+
     .first-part .items .item {
         width: 26%;
     }
 
-    .first-part .items {
-        max-width: 300px;
+    .first-part .mavi {
+        width: 54%;
+        margin-right: auto;
+    }
+
+    .first-part .mavi div {
+        padding: 11px 16px 9px 15px;
+        width: 54%;
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1278px) {
+@media screen and (min-width: 320px) and (max-width: 625px) {
+    .first-part .main .bottom {
+        flex-direction: column;
+    }
+
+    .first-part .main .bottom img {
+        width: 44%;
+    }
+
+    .first-part .main .bottom .left {
+        width: 72%;
+    }
+
+    .first-part .main .bottom .left p {
+        width: 74%;
+    }
+
+    .first-part .items .item {
+        width: 33%;
+    }
+
+    .first-part .mavi {
+        width: 74%;
+    }
+
     .first-part .mavi div {
-        width: 48%;
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 625px) and (max-width: 700px) {
+    .first-part .mavi {
+        width: 66%;
+    }
+
+    .first-part .mavi div {
+        width: 66%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .first-part .main .bottom .left {
+        width: 97%;
+    }
+
+    .first-part .main .bottom img {
+        width: 55%;
+    }
+
+    .first-part .mavi div {
+        width: 92%;
+    }
+}
+
+@media screen and (min-width: 702px) and (max-width: 840px) {
+    .first-part .mavi div {
+        width: 75%;
+    }
+
+    .first-part .mavi {
+        width: 58%;
     }
 }
