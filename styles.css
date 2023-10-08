@@ -485,7 +485,7 @@ h1{
 .first-second{
     display:flex;
     justify-content: space-between;
-    width: 1172px;
+    /* width: 1172px; */
 }
 
 .second-partf{
@@ -658,11 +658,11 @@ h1{
 
     /* footer */
 
-    .one{
+    .footer .one{
         padding: 15px;
     }
     
-    h1{ 
+    .footer h1{ 
         width: 571.64px;
         height: 53.86px;
         font-size: 32px;
@@ -670,109 +670,109 @@ h1{
         margin-top:30px;
     }
     
-    .one-part{
+    .footer .one-part{
         width: 458.12px;
         height: 261.2px;
         margin: 25px 50px 50px 50px;
         padding:25px;
     }
     
-    .text1{
+    .footer .text1{
         width:405.42px;
         height:117.57px;
         font-size: 12px;
         line-height: 18px;
     }
     
-    .p1{
+    .footer .p1{
         width: 110.04px;
         height: 97.88px;
         margin-right: 25px;
     }
     
-    .bottext{
+    .footer .bottext{
         font-size: 17px;
         width: 204.45px;
         height: 34.17px;
     }
     
-    .face{
+    .footer .face{
         width: 18.53px;
         height: 17.95px;
     }
     
-    .two{
+    .footer .two{
         padding: 75px;
     }
     
-    .two h2{
+    .footer .two h2{
         font-size: 32px;
         width: 525.88px;
         height: 38.23px;
         margin: 25px 0;
     }
     
-    .cmot{
+    .footer .cmot{
         font-size: 14px;
         width: 98.46px;
         height: 18.53px;
     }
     
-    .rubl{
+    .footer .rubl{
         font-size: 46px;
         width: 278.58px;
         height: 104.83px;
     }
     
-    .big{
+    .footer .big{
         font-size: 14px;
         width: 170.28px;
         height: 18.53px;
     }
     
-    .normal{
+    .footer .normal{
         font-size: 10px;
         width: 170.28px;
         height: 40.54px;
     }
     
-    .two-bottom{
+    .footer .two-bottom{
         margin-bottom: 50px;
     }
     
-    .bot1{
+    .footer .bot1{
         margin-right: 35px;
     }
     
-    .three{
+    .footer .three{
         padding: 35px;
         width: 100%;
         height: 100%;
     }
     
-    .first-partf{
+    .footer .first-partf{
         width: 114.68px;
         height: 75.87px;
         margin-left: 25px;
     }
     
-    .logos{
+    .footer .logos{
        margin-top: 10px;
     }
     
-    .logos img{
+    .footer .logos img{
        margin-right: 5px;
     }
     
-    .first-second{
-        width: 638px;
+    .footer .first-second{
+        /* width: 638px; */
     }
     
-    .second-partf{
+    .footer .second-partf{
         font-size: 14px;
     }
     
-    .third-partf{
+    .footer .third-partf{
         width: 133.21px;
         height: 14.17px;
         font-size: 10px;
@@ -780,32 +780,32 @@ h1{
         margin-top: 75px;
     }
     
-    .logo1{
+    .footer .logo1{
         height: 19.11px;
     }
     
-    .logo2{
+    .footer .logo2{
         height: 18.53px;
     }
     
-    .logo3{
+    .footer .logo3{
         height: 20.27px;
     }
     
-    .logo4{
+    .footer .logo4{
         height: 19.69px;
     }
     
-    .logo5{
+    .footer .logo5{
         height: 15.64px;
     }
     
-    .logo6{
+    .footer .logo6{
         width: 15.64px;
         height: 10.43px;
     }
     
-    .image3{
+    .footer .image3{
         width: 66.6px;
         height: 39.38px;
     }
