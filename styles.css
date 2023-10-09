@@ -106,7 +106,7 @@ main {
     line-height: 101.385%;
     margin-bottom: 95px;
     margin-left: 70px;
-    width: 905px;
+    /* width: 905px; */
     height: 93px;
 }
 
@@ -764,9 +764,9 @@ h1{
        margin-right: 5px;
     }
     
-    .footer .first-second{
-        /* width: 638px; */
-    }
+    /* .footer .first-second{
+        width: 638px;
+    } */
     
     .footer .second-partf{
         font-size: 14px;
@@ -1107,7 +1107,8 @@ h1{
     .ucuncubasliq {
         width: 100%;
         height: 43.335px;
-        font-size: 26px;
+        /* font-size: 26px; */
+        font-size: 6vw;
         margin-left: 0px;
         margin-bottom: 50px;
         text-align: center;
